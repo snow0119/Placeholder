@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html 独立样式表</title>
+    <style type="text/css">
+        .internal-style-sheet h1 {
+            color: red;
+        }
+
+        .internal-style-sheet p {
+            color: gray;
+        }
+
+        .internal-style-sheet a {
+            text-decoration: none;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="htmlCss.css">
+</head>
+<body>
+<div class="internal-style-sheet">
+    <h1>红色的标题</h1>
+    <p>灰色的内容</p>
+
+    <a href="#">没有下划线的链接</a>
+</div>
+
+<h1>下面使用外部样式</h1>
+<p>这是一首简单的歌</p>
+</body>
+</html>
