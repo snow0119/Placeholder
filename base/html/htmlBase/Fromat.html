@@ -7,7 +7,6 @@
 <body>
 <section>
     <h1>文本格式化</h1>
-    <hr/>
     <b>加粗文字</b>
     <br/>
     <strong>定义加重语气。</strong>
@@ -39,11 +38,9 @@
     <br/>
     2n<sup>2</sup>+1
 </section>
-<hr/>
-<hr/>
+
 <section>
     <h1>预格式文本</h1>
-    <hr/>
     <pre>这里的空格 会       被原样保留</pre>
     <p>pre 标签很适合计算机代码</p>
     <pre>
@@ -52,27 +49,38 @@
         next i
     </pre>
 </section>
-<hr/>
-<hr/>
+
 <section>
     <h1>地址</h1>
     <address>江苏省<br/>南京市</address>
+
     <h1>文字方向</h1>
+    <p>
+        如果您的浏览器支持 bdo，则文本将从右向左进行书写 (rtl)：
+    </p>
     <bdo dir="rtl">
-        这是一段文字将被反方向展示出来
+        This line will be written from right to left
     </bdo>
+
     <h1>块引用</h1>
     <blockquote>这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。</blockquote>
     <q>这是短引用.这是短引用.这是短引用.这是短引用.这是短引用</q>
     <p>
         使用 blockquote 元素的话，浏览器会插入换行和外边距，而 q 元素不会有任何特殊的呈现。
     </p>
+
     <h1>删除字和插入字</h1>
     <p>今天是<del>2018.04.20</del> <ins>2018.04.20</ins> 星期五</p>
-    <h1>用于缩略词的HTML</h1>
+
+    <h1>用于缩略词的HTML abbr</h1>
     <abbr title="World Health Organization">WHO</abbr>
-    <h2>用于定义的HTML</h2>
+
+    <h2>用于定义的HTML dfn</h2>
     <dfn>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</dfn>
+    <p>对缩写进行标记能够为浏览器、翻译系统以及搜索引擎提供有用的信息。</p>
+
+    <h1>用于著作标题的 HTML cite</h1>
+    <cite>烈火如歌</cite> 是明晓溪的作品
 </section>
 </body>
 </html>
