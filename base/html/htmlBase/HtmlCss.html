@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>html 独立样式表</title>
     <style type="text/css">
+        body {
+            background-image: url("../statics/bg.jpg");
+        }
+
         .internal-style-sheet h1 {
             color: red;
         }
@@ -20,13 +24,83 @@
 </head>
 <body>
 <div class="internal-style-sheet">
+    <a href="#bottom" name="top">置底</a>
+
     <h1>红色的标题</h1>
     <p>灰色的内容</p>
 
-    <a href="#">没有下划线的链接</a>
+    <a href="#" target="_blank">没有下划线的链接</a>
+    <!--在新窗口打开文档-->
+    <h1>跳转到指定位置</h1>
+    <a href="#top10">跳到Top10</a>
+    <ul>
+        <li>
+            <h3>Top 1</h3>
+            <p>第一名</p>
+        </li>
+        <li>
+            <h3>Top 2</h3>
+            <p>第二名</p>
+        </li>
+        <li>
+            <h3>Top 3</h3>
+            <p>第三名</p>
+        </li>
+        <li>
+            <h3>Top 4</h3>
+            <p>第四名</p>
+        </li>
+        <li>
+            <h3>Top 5</h3>
+            <p>第五名</p>
+        </li>
+        <li>
+            <h3>Top 6</h3>
+            <p>第六名</p>
+        </li>
+        <li>
+            <h3>Top 7</h3>
+            <p>第七名</p>
+        </li>
+        <li>
+            <h3>Top 8</h3>
+            <p>第八名</p>
+        </li>
+        <li>
+            <h3>Top 9</h3>
+            <p>第九名</p>
+        </li>
+        <li>
+            <a name="top10">
+                <h3>Top 10</h3>
+                <p>第十名</p>
+            </a>
+        </li>
+    </ul>
 </div>
 
 <h1>下面使用外部样式</h1>
 <p>这是一首简单的歌</p>
+<a href="mailto:834456263@qq.com?subject=Hello%20again">发送含主题的邮件</a>
+<br/>
+<a href="mailto:834456263@qq.com?cc=834456263@qq.com&bcc=834456263@qq.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送含指定抄送人、密送人、主题、内容邮件</a>
+<br/>
+<p>
+    好想吃呀
+    <img src="../statics/man.png" alt="man picture">
+    啦啦啦
+</p>
+<p>
+    好想吃呀
+    <img src="../statics/man.png" alt="man picture" align="middle">
+    啦啦啦
+</p>
+<p>
+    好想吃呀
+    <img src="../statics/man.png" alt="man picture" align="top">
+    啦啦啦
+</p>
+<br/>
+<a href="#top" name="bottom">置顶</a>
 </body>
 </html>
