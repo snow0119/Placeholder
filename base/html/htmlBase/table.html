@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+<h4>跨行跨列的表格</h4>
+<table border="1">
+    <tr>
+        <th>第一列</th>
+        <th>第二列</th>
+        <th>第三列</th>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td colspan="2">21</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td rowspan="2">31</td>
+        <td>32</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>33</td>
+    </tr>
+</table>
+
+<h4>代标题的表格</h4>
+<table border="1">
+    <caption>标题区域</caption>
+    <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+    </tr>
+</table>
+
+<h4>空行处理</h4>
+<table border="1">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>22</td>
+    </tr>
+</table>
+<b>改进后的空行</b>
+<table border="1">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>22</td>
+    </tr>
+</table>
+
+<h4>添加表头</h4>
+<table border="1">
+    <tr>
+        <th>第一列</th>
+        <th>第二列</th>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+    </tr>
+</table>
+
+<h4>不同的边框</h4>
+<table border="2">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+    </tr>
+</table>
+<br/>
+<table border="8">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+    </tr>
+</table>
+
+<h4>一行一列</h4>
+<table border="1">
+    <tr>
+        <td>仅此一行一列</td>
+    </tr>
+</table>
+
+<h4>两行两列</h4>
+<table border="1">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+    </tr>
+</table>
+
+<h4>三行三列</h4>
+<table border="1">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+    </tr>
+</table>
+
+</body>
+</html>
