@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画布</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        canvas {
+            border: 1px solid sandybrown;
+        }
+    </style>
+    <script type="text/javascript">
+        function onReady() {
+            var c1 = document.getElementById("first")
+            var content1 = c1.getContext("2d")
+            content1.fillStyle = "pink"
+            content1.fillRect(10, 10, 280, 280)
+
+            var c2 = document.getElementById("second")
+            var content2 = c2.getContext("2d")
+            content2.moveTo(10,10)
+            content2.lineTo(180,50)
+            content2.lineTo(10,50)
+            content2.stroke()
+        }
+    </script>
+</head>
+<body onload="onReady()">
+<canvas id="first" height="300px" width="300px"></canvas>
+<canvas id="second" height="200px" width="200px"></canvas>
+</body>
+</html>
