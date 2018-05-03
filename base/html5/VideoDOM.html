@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video + DOM</title>
+</head>
+<body>
+<div>
+    <section class="operate">
+        <button onclick="playPause()">开始/暂停</button>
+        <button onclick="big()">大</button>
+        <button onclick="common()">中</button>
+        <button onclick="small()">小</button>
+    </section>
+    <video id="video1" width="400" style="margin-top:15px;">
+        <source src="../../statics/mov_bbb.mp4" type="video/mp4">
+        <source src="../../statics/mov_bbb.ogg" type="video/ogg">
+    </video>
+</div>
+<script>
+    var video1 = document.getElementById("video1")
+
+    function playPause() {
+        if (video1.paused) {
+            video1.play()
+        } else {
+            video1.pause()
+        }
+    }
+
+    function big() {
+        video1.width = 500
+
+    }
+
+    function common() {
+        video1.width = 400
+    }
+
+    function small() {
+        video1.width = 300
+    }
+</script>
+</body>
+</html>
