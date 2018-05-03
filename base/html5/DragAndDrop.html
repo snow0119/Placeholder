@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖放</title>
+    <style>
+        .myBorder {
+            width: 200px;
+            height: 100px;
+            border: 1px solid #d4d4d4;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<p>图片可多次拖放</p>
+<div class="myBorder" ondragover="allowDrag(event)" ondrop="drop(event)">
+    <img id="myImg1" src="../../statics/man.png" ondragstart="drag(event)">
+</div>
+<div class="myBorder" ondragover="allowDrag(event)" ondrop="drop(event)"></div>
+
+<hr>
+<p>请把图片拖入框内</p>
+<div class="myBorder" ondragover="allowDrag(event)" ondrop="drop(event)"></div>
+<img id="myImg" src="../../statics/man.png" draggable="true" ondragstart="drag(event)">
+<script>
+    function drag(event) {
+        event.dataTransfer.setData("Text", event.target.id)
+    }
+
+    function allowDrag(event) {
+        event.preventDefault()
+    }
+
+    function drop(event) {
+        event.preventDefault()
+        var data = event.dataTransfer.getData("Text")
+        event.target.appendChild(document.getElementById(data))
+    }
+</script>
+</body>
+</html>
