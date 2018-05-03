@@ -15,31 +15,40 @@
     </style>
     <script type="text/javascript">
         function onReady() {
-            var c1 = document.getElementById("first")
+            var c1 = document.getElementById("rectangle")
             var content1 = c1.getContext("2d")
             content1.fillStyle = "pink"
             content1.fillRect(10, 10, 280, 280)
 
-            var c2 = document.getElementById("second")
+            var c2 = document.getElementById("line")
             var content2 = c2.getContext("2d")
             content2.moveTo(10, 10)
             content2.lineTo(180, 50)
             content2.lineTo(10, 50)
             content2.stroke()
 
-            var c3 = document.getElementById('third')
+            var c3 = document.getElementById('circle')
             var content3 = c3.getContext('2d')
             content3.fillStyle = 'blue'
             content3.beginPath()
             content3.arc(50, 50, 10, 0, Math.PI * 2, true)
             content3.closePath()
             content3.fill()
+
+            var c4 = document.getElementById('gradient')
+            var content4 = c4.getContext('2d')
+            var grd = content4.createLinearGradient(0, 0, 200, 100)
+            grd.addColorStop(0, '#37990A')
+            grd.addColorStop(1, '#FDFF05')
+            content4.fillStyle = grd
+            content4.fillRect(0, 0, 200, 100)
         }
     </script>
 </head>
 <body onload="onReady()">
-<canvas id="first" height="300" width="300"></canvas>
-<canvas id="second" height="200" width="200"></canvas>
-<canvas id="third" height="100" width="150"></canvas>
+<canvas id="rectangle" height="300" width="300"></canvas>
+<canvas id="line" height="200" width="200"></canvas>
+<canvas id="circle" height="100" width="150"></canvas>
+<canvas id="gradient" height="200" width="500"></canvas>
 </body>
 </html>
