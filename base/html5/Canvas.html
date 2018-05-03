@@ -22,15 +22,24 @@
 
             var c2 = document.getElementById("second")
             var content2 = c2.getContext("2d")
-            content2.moveTo(10,10)
-            content2.lineTo(180,50)
-            content2.lineTo(10,50)
+            content2.moveTo(10, 10)
+            content2.lineTo(180, 50)
+            content2.lineTo(10, 50)
             content2.stroke()
+
+            var c3 = document.getElementById('third')
+            var content3 = c3.getContext('2d')
+            content3.fillStyle = 'blue'
+            content3.beginPath()
+            content3.arc(50, 50, 10, 0, Math.PI * 2, true)
+            content3.closePath()
+            content3.fill()
         }
     </script>
 </head>
 <body onload="onReady()">
-<canvas id="first" height="300px" width="300px"></canvas>
-<canvas id="second" height="200px" width="200px"></canvas>
+<canvas id="first" height="300" width="300"></canvas>
+<canvas id="second" height="200" width="200"></canvas>
+<canvas id="third" height="100" width="150"></canvas>
 </body>
 </html>
