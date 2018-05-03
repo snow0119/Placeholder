@@ -42,6 +42,12 @@
             grd.addColorStop(1, '#FDFF05')
             content4.fillStyle = grd
             content4.fillRect(0, 0, 200, 100)
+
+            var c5 = document.getElementById('img')
+            var content5 = c5.getContext('2d')
+            var imgUrl = new Image()
+            imgUrl.src = 'flower.png'
+            content5.drawImage(imgUrl, 10, 10)
         }
     </script>
 </head>
@@ -50,5 +56,6 @@
 <canvas id="line" height="200" width="200"></canvas>
 <canvas id="circle" height="100" width="150"></canvas>
 <canvas id="gradient" height="200" width="500"></canvas>
+<canvas id="img" width="600px" height="400px"></canvas>
 </body>
 </html>
