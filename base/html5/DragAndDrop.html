@@ -24,7 +24,7 @@
 <p>请把图片拖入框内</p>
 <div class="myBorder" ondragover="allowDrag(event)" ondrop="drop(event)"></div>
 <img id="myImg" src="../../statics/man.png" draggable="true" ondragstart="drag(event)">
-<script>
+<script type="text/javascript">
     function drag(event) {
         event.dataTransfer.setData("Text", event.target.id)
     }
