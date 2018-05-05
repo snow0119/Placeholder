@@ -5,7 +5,7 @@
     <title>Web 存储</title>
     <script type="text/javascript">
         localStorage.myName = 'snow'
-        document.write(localStorage.myName)
+        document.writeln(localStorage.myName)
 
         if (localStorage.pageCount) {
             localStorage.pageCount = +localStorage.pageCount + 1
@@ -13,7 +13,17 @@
             localStorage.pageCount = 1
         }
 
-        document.write('Visiting times is : ' + localStorage.pageCount)
+        document.writeln('LocalStorage visiting times is : ' + localStorage.pageCount)
+
+        sessionStorage.age = '10'
+        document.writeln(sessionStorage.age)
+
+        if (sessionStorage.pageCount) {
+            sessionStorage.pageCount = +sessionStorage.pageCount + 1
+        } else {
+            sessionStorage.pageCount = 1
+        }
+        document.writeln('SessionStorage visiting times is : ' + sessionStorage.pageCount)
     </script>
 </head>
 <body>
