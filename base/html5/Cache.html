@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" manifest="demo.manifest">
+<head>
+    <meta charset="UTF-8">
+    <title>应用缓存</title>
+</head>
+<body>
+
+<!--MANIFEST-->
+CACHE MANIFEST // 其下的文件即在首次下载后缓存
+ /theme.css
+ /logo.gif
+ /main.js
+
+NETWORK // 其下的文件需与服务器连接，并不会被缓存
+ *
+
+FALLBACK // 其下的文件规定当页面无法访问时的回退的页面
+ /html5/ /404.html
+
+</body>
+</html>
