@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务器发送事件</title>
+    <script type="text/javascript">
+        if (typeof (EventSource) !== 'undefined') {
+            var sourse = new EventSource('');
+            sourse.onmessage = function (event) {
+                document.getElementById("result").innerHTML = event.data;
+            };
+        } else {
+            document.getElementById("result").innerHTML = "抱歉，您的浏览器不支持 server-sent 事件 ...";
+        }
+    </script>
+</head>
+<body>
+<h2>获得服务器更新</h2>
+<div id="result"></div>
+</body>
+</html>
