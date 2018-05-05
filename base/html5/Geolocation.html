@@ -5,6 +5,25 @@
     <title>地理定位</title>
 </head>
 <body>
+<p id="demo">点击这里，获取当前坐标</p>
+<button onclick="getLocation()">获取</button>
+<script>
+    var x = document.getElementById('demo')
 
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude
+            + "<br />Longitude: " + position.coords.longitude
+
+        alert(position.coords)
+    }
+</script>
 </body>
 </html>
