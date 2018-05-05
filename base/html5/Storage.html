@@ -6,6 +6,14 @@
     <script type="text/javascript">
         localStorage.myName = 'snow'
         document.write(localStorage.myName)
+
+        if (localStorage.pageCount) {
+            localStorage.pageCount = +localStorage.pageCount + 1
+        } else {
+            localStorage.pageCount = 1
+        }
+
+        document.write('Visiting times is : ' + localStorage.pageCount)
     </script>
 </head>
 <body>
