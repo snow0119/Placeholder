@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>My Profile</title>
+    <link rel="stylesheet" href="../css/common.css">
 </head>
 <body>
-<header style="background-color: black;color:white">
-    <img src="../../statics/github_logo.png" width="40" height="40"/>
+<header>
+    <img src="../../statics/github_logo.png"/>
     <input type="search">
     <ul>
-        <li><a>Pull requests</a></li>
-        <li><a>Issues</a></li>
-        <li><a>Marketplace</a></li>
-        <li><a>Explore</a></li>
+        <li><a href="#">Pull requests</a></li>
+        <li><a href="#">Issues</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Explore</a></li>
     </ul>
-    <img/>
+    <span></span>
     <div>
-        <img/>
+        <span></span>
         <ul>
-            <li><a>New repository</a></li>
-            <li><a>Import repository</a></li>
-            <li><a>New gist</a></li>
-            <li><a>New organization</a></li>
+            <li><a href="#">New repository</a></li>
+            <li><a href="#">Import repository</a></li>
+            <li><a href="#">New gist</a></li>
+            <li><a href="#">New organization</a></li>
         </ul>
     </div>
     <div>
@@ -29,19 +30,151 @@
         <ul>
             <li>Signed in as snow</li>
             <hr>
-            <li><a>Your profile</a></li>
-            <li><a>Your starts</a></li>
-            <li><a>Your gists</a></li>
+            <li><a href="#">Your profile</a></li>
+            <li><a href="#">Your starts</a></li>
+            <li><a href="#">Your gists</a></li>
             <hr>
-            <li><a>Help</a></li>
-            <li><a>Settings</a></li>
-            <li><a>Sign out</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Sign out</a></li>
         </ul>
     </div>
 </header>
-<div></div>
+
+<section>
+    <aside>
+        <img src="../../statics/man.png">
+        <section>
+            <span>name</span>
+            <span>nickName</span>
+            <button>Add a bio</button>
+        </section>
+        <hr>
+        <address>
+            <img src="../../statics/eg_venus.gif">
+            <a href="#">834456263@qq.com</a>
+        </address>
+        <hr>
+        <section>
+            <span>Organization</span>
+            <img src="../../statics/eg_merglobe.gif">
+        </section>
+    </aside>
+
+    <main>
+        <ul>
+            <li>OverView</li>
+            <li>Repositories<span>4</span></li>
+            <li>Starts<span>2</span></li>
+            <li>Followers<span>120</span></li>
+            <li>Following<span>50</span></li>
+        </ul>
+        <section class="OverView">
+            <section>
+                <div>
+                    <h3>Popular repositories </h3>
+                    <span>Customize your pinned repositories</span>
+                </div>
+                <article>
+                    <b><a href="#">first-demo-vue</a></b>
+                    <p>This is my first demo about vue.</p>
+                    <img src="circle">
+                    <span>JavaScript</span>
+                    <img src="start">
+                    <span>2</span>
+                </article>
+                <article>
+                    <b><a href="#">blog</a></b>
+                    <p>Used to write some feelings, you can also say essays.</p>
+                    <img src="start">
+                    <span>2</span>
+                </article>
+                <article>
+                    <b><a href="#">demo-webpack</a></b>
+                    <p>webpack sample project</p>
+                </article>
+            </section>
+            <section>
+                <div>
+                    <h3>186 contributions in the last year</h3>
+                    <span>Contribution settings</span>
+                    <span>v</span>
+                </div>
+                <svg>
+                </svg>
+                <div>
+                    <a href="#">Learn how we count contributions.</a>
+                    <div>Less
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        More
+                    </div>
+                </div>
+            </section>
+            <section>
+                <main>
+                    <div>
+                        <h3>Contribution activity</h3>
+                        <span>Jump to</span>
+                        <span>v</span>
+                    </div>
+                    <fieldset>
+                        <legend>May 2018</legend>
+                        <div>
+                            <h2>Created 25 commits in 1 repository</h2>
+                            <img>
+                        </div>
+                        <div>
+                            <a href="#">snow0119/from-shallow-to-deep</a> 25 commits
+                            <progress max="100" value="100"></progress>
+                        </div>
+                    </fieldset>
+                    <div><a href="#">Show more activity</a></div>
+                    <p>Seeing something unexpected? Take a look at the <a href="#">GitHub profile guide</a>.</p>
+                </main>
+                <aside>
+                    <ul>
+                        <li>2018</li>
+                        <li>2017</li>
+                        <li>2016</li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+        <section class="Repositories"></section>
+        <section class="Starts"></section>
+        <section class="Followers"></section>
+        <section class="Following"></section>
+    </main>
+</section>
+
 <footer>
-    © 2018 GitHub, Inc.
+    <div>
+        <span>© 2018 GitHub, Inc.</span>
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div><img src="../../statics/github_logo.png"></div>
+    <div>
+        <ul>
+            <li><a href="#">Contact GitHub</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Training</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
