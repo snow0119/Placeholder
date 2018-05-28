@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框</title>
+    <style type="text/css">
+        div {
+            margin-bottom: 20px;
+        }
+
+        .radius {
+            width: 200px;
+            border-radius: 25px;
+            border: 2px solid #d4d4d4;
+        }
+
+        .shadow {
+            width: 100px;
+            height: 50px;
+            background-color: yellow;
+            box-shadow: 10px 5px 2px #5a6169;
+        }
+
+        .border-img {
+            width: 300px;
+            padding: 10px 20px;
+            border: 15px solid transparent;
+        }
+
+        .round {
+            -moz-border-image: url("../../statics/border-img.png") 30 30 round; /* Old Firefox */
+            -webkit-border-image: url("../../statics/border-img.png") 30 30 round; /* Safari and Chrome */
+            -o-border-image: url("../../statics/border-img.png") 30 30 round; /* Opera */
+            border-image: url("../../statics/border-img.png") 30 30 round;
+        }
+
+        .stretch {
+            -moz-border-image: url("../../statics/border-img.png") 30 30 stretch; /* Old Firefox */
+            -webkit-border-image: url("../../statics/border-img.png") 30 30 stretch; /* Safari and Chrome */
+            -o-border-image: url("../../statics/border-img.png") 30 30 stretch; /* Opera */
+            border-image: url("../../statics/border-img.png") 30 30 stretch;
+        }
+    </style>
+</head>
+<body>
+<div class="radius">圆角矩形</div>
+<div class="shadow">带阴影的矩形</div>
+<div class="round border-img">图形边框的矩形</div>
+<div class="stretch border-img">图形边框的矩形</div>
+</body>
+</html>
