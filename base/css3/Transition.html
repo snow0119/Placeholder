@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过渡</title>
+    <style>
+        div {
+            width: 100px;
+            height: 50px;
+            margin-top: 30px;
+            text-align: center;
+            background-color: plum;
+        }
+
+        .transition {
+            transition: width 2s, height 2s, transform 2s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+            -webkit-transition-timing-function: ease-in;
+            -webkit-transition-delay: 2s;
+            -webkit-transition: width 2s, height 2s, transform 2s;
+        }
+
+        .transition:hover {
+            width: 200px;
+            height: 100px;
+            transform: rotate3d(200, 20, 20, 10deg);
+        }
+    </style>
+</head>
+<body>
+<div class="transition">移动</div>
+</body>
+</html>
