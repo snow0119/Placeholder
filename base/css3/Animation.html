@@ -5,9 +5,19 @@
     <title>动画</title>
     <style>
         div {
+            margin-bottom: 10px;
+        }
+
+        .first {
             width: 80px;
             height: 80px;
             animation: firstAnimation 5s;
+        }
+
+        .second {
+            width: 80px;
+            height: 80px;
+            animation: secondAnimation 5s;
         }
 
         @keyframes firstAnimation {
@@ -45,9 +55,70 @@
                 background-color: cornflowerblue;
             }
         }
+
+        @keyframes secondAnimation {
+            0% {
+                background: red;
+            }
+            25% {
+                background: yellow;
+            }
+            50% {
+                background: blue;
+            }
+            100% {
+                background: green;
+            }
+        }
+
+        @-webkit-keyframes secondAnimation {
+            0% {
+                background: red;
+            }
+            25% {
+                background: yellow;
+            }
+            50% {
+                background: blue;
+            }
+            100% {
+                background: green;
+            }
+        }
+
+        @-o-keyframes secondAnimation {
+            0% {
+                background: red;
+            }
+            25% {
+                background: yellow;
+            }
+            50% {
+                background: blue;
+            }
+            100% {
+                background: green;
+            }
+        }
+
+        @-moz-keyframes secondAnimation {
+            0% {
+                background: red;
+            }
+            25% {
+                background: yellow;
+            }
+            50% {
+                background: blue;
+            }
+            100% {
+                background: green;
+            }
+        }
     </style>
 </head>
 <body>
-<div></div>
+<div class="first"></div>
+<div class="second"></div>
 </body>
 </html>
