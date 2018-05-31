@@ -5,19 +5,30 @@
     <title>动画</title>
     <style>
         div {
+            width: 80px;
+            height: 80px;
             margin-bottom: 10px;
         }
 
         .first {
-            width: 80px;
-            height: 80px;
             animation: firstAnimation 5s;
         }
 
         .second {
-            width: 80px;
-            height: 80px;
             animation: secondAnimation 5s;
+        }
+
+        .third {
+            position: relative;
+            /*animation-name: thirdAnimation;*/
+            /*animation-duration: 5s;*/
+            /*animation-timing-function: linear;*/
+            /*animation-delay: 2s;*/
+            /*animation-iteration-count: infinite;*/
+            /*animation-direction: alternate;*/
+            /*animation-play-state: running;*/
+
+            animation: thirdAnimation 5s linear 2s infinite alternate running;
         }
 
         @keyframes firstAnimation {
@@ -66,8 +77,11 @@
             50% {
                 background: blue;
             }
-            100% {
+            75% {
                 background: green;
+            }
+            100% {
+                background: red;
             }
         }
 
@@ -81,8 +95,11 @@
             50% {
                 background: blue;
             }
-            100% {
+            75% {
                 background: green;
+            }
+            100% {
+                background: red;
             }
         }
 
@@ -96,8 +113,11 @@
             50% {
                 background: blue;
             }
-            100% {
+            75% {
                 background: green;
+            }
+            100% {
+                background: red;
             }
         }
 
@@ -111,8 +131,123 @@
             50% {
                 background: blue;
             }
-            100% {
+            75% {
                 background: green;
+            }
+            100% {
+                background: red;
+            }
+        }
+
+        @keyframes thirdAnimation {
+            0% {
+                background: red;
+                left: 0;
+                top: 0;
+            }
+            25% {
+                background: yellow;
+                left: 200px;
+                top: 0;
+            }
+            50% {
+                background: blue;
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                background: green;
+                left: 0px;
+                top: 200px;
+            }
+            100% {
+                background: red;
+                left: 0;
+                top: 0px;
+            }
+        }
+
+        @-moz-keyframes thirdAnimation {
+            0% {
+                background: red;
+                left: 0;
+                top: 0;
+            }
+            25% {
+                background: yellow;
+                left: 200px;
+                top: 0;
+            }
+            50% {
+                background: blue;
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                background: green;
+                left: 0px;
+                top: 200px;
+            }
+            100% {
+                background: red;
+                left: 0;
+                top: 0px;
+            }
+        }
+
+        @-o-keyframes thirdAnimation {
+            0% {
+                background: red;
+                left: 0;
+                top: 0;
+            }
+            25% {
+                background: yellow;
+                left: 200px;
+                top: 0;
+            }
+            50% {
+                background: blue;
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                background: green;
+                left: 0px;
+                top: 200px;
+            }
+            100% {
+                background: red;
+                left: 0;
+                top: 0px;
+            }
+        }
+
+        @-webkit-keyframes thirdAnimation {
+            0% {
+                background: red;
+                left: 0;
+                top: 0;
+            }
+            25% {
+                background: yellow;
+                left: 200px;
+                top: 0;
+            }
+            50% {
+                background: blue;
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                background: green;
+                left: 0px;
+                top: 200px;
+            }
+            100% {
+                background: red;
+                left: 0;
+                top: 0px;
             }
         }
     </style>
@@ -120,5 +255,6 @@
 <body>
 <div class="first"></div>
 <div class="second"></div>
+<div class="third"></div>
 </body>
 </html>
