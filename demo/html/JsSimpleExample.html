@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>基础 JavaScript 实例</title>
+    <script>
+        function sayHello() {
+            alert('hello! The prompt box is called by the onload event.')
+        }
+    </script>
 </head>
-<body>
-<script>
-    document.write('The first demo')
+<body onload="sayHello()">
 
+<script>
+    document.writeln('This message is output when the page loads.')
+    document.writeln('The first demo')
+    document.writeln('<h1>The first demo</h1>')
 </script>
+
 </body>
 </html>
