@@ -10,3 +10,7 @@ function timedCount() {
     c = c + 1
     t = setTimeout("timedCount()", 1000)
 }
+
+function stopCount() {
+    clearTimeout(t)
+}
