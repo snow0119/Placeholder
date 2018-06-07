@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $('#hide button').click(function () {
-        $('p').hide()
+        $('#hide p').hide()
     })
 
     $('#toggle button').click(function () {
-        $('div').toggle(1000)
+        $('#toggle p').toggle(1000)
     })
 })
