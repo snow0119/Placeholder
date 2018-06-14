@@ -6,9 +6,12 @@
     <script src="../../common/js/jquery-3.3.1.js"></script>
     <script src="../js/Effect.js"></script>
     <style>
-        #first, #second, #third {
+        #first, #second, #third, #id1, #id2, #id3 {
             width: 80px;
             height: 80px;
+        }
+
+        #first, #second, #third {
             display: none;
         }
     </style>
@@ -26,11 +29,15 @@
     <p>Try to make it through tonight</p>
 </section>
 
-<section id="fadeIn">
-    <button type="button">显示</button>
+<section id="fade">
+    <button id="fadeIn" type="button">显示</button>
+    <button id="fadeOut" type="button">隐藏</button>
+    <button id="fadeToggle" type="button">toggle</button>
+    <button id="fadeTo" type="button">fadeTo</button>
     <div id="first" style="background-color:red;"></div>
-    <div id="second" style="background-color:green;"></div>
     <div id="third" style="background-color:mediumpurple;"></div>
+    <div id="second" style="background-color:green;"></div>
 </section>
+
 </body>
 </html>

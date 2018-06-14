@@ -7,9 +7,27 @@ $(document).ready(function () {
         $('#toggle p').toggle(1000)
     })
 
-    $('#fadeIn button').click(function () {
+    $('#fadeIn').click(function () {
         $('#first').fadeIn();
         $('#second').fadeIn(3000);
         $('#third').fadeIn("slow");
+    })
+
+    $('#fadeOut').click(function () {
+        $('#first').fadeOut();
+        $('#second').fadeOut(3000);
+        $('#third').fadeOut("slow");
+    })
+
+    $('#fadeToggle').click(function () {
+        $('#first').fadeToggle();
+        $('#second').fadeToggle(3000);
+        $('#third').fadeToggle('fast');
+    })
+    
+    $('#fadeTo').click(function () {
+        $('#first').fadeTo(3000, 0.5);
+        $('#second').fadeTo(300);
+        $('#third').fadeTo('fast');
     })
 })
