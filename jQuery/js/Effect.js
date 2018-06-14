@@ -24,10 +24,22 @@ $(document).ready(function () {
         $('#second').fadeToggle(3000);
         $('#third').fadeToggle('fast');
     })
-    
+
     $('#fadeTo').click(function () {
         $('#first').fadeTo(3000, 0.5);
         $('#second').fadeTo(300);
         $('#third').fadeTo('fast');
+    })
+
+    $('#slideDown').click(function () {
+        $('.content').slideDown("slow");
+    })
+
+    $('#slideUp').click(function () {
+        $('.content').slideUp("slow");
+    })
+
+    $('#slideToggle').click(function () {
+        $('.content').slideToggle("fast")
     })
 })

@@ -14,9 +14,33 @@
         #first, #second, #third {
             display: none;
         }
+
+        #slide div {
+            width: 1000px;
+            text-align: center;
+            border: 1px solid #f1f1f1;
+            background-color: deepskyblue;
+        }
+
+        #slide .content {
+            display: none;
+        }
+
+        #slideDown, #slideUp {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
+<section id="slide">
+    <div class="content">
+        <p>京哈高速就读于千万做了科学家此前，客户不顾一切为。不会窜到，爱好几把虽千万。</p>
+        <p>交换机爱看电视，框架柱细微的。</p>
+    </div>
+    <div id="slideDown">打开</div>
+    <div id="slideUp">收起</div>
+    <div id="slideToggle">切换</div>
+</section>
 <section id="hide">
     <button type="button">隐藏</button>
     <p>狼烟烽火何时休</p>
@@ -38,6 +62,5 @@
     <div id="third" style="background-color:mediumpurple;"></div>
     <div id="second" style="background-color:green;"></div>
 </section>
-
 </body>
 </html>
