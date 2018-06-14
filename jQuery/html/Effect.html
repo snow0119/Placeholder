@@ -29,9 +29,29 @@
         #slideDown, #slideUp {
             margin-bottom: 10px;
         }
+
+        .animate {
+            margin-bottom: 100px;
+        }
+
+        .color-block {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            background-color: cadetblue;
+        }
+
     </style>
 </head>
 <body>
+<section class="animate">
+    <button id="move">start move</button>
+    <button class="bigger">small to big</button>
+    <button class="toggle">toggle</button>
+    <button class="change">change</button>
+    <div class="color-block">hello</div>
+</section>
+
 <section id="slide">
     <div class="content">
         <p>京哈高速就读于千万做了科学家此前，客户不顾一切为。不会窜到，爱好几把虽千万。</p>
@@ -40,6 +60,7 @@
     <div id="slideDown">打开</div>
     <div id="slideUp">收起</div>
     <div id="slideToggle">切换</div>
+    <button class="stop">停止</button>
 </section>
 <section id="hide">
     <button type="button">隐藏</button>
