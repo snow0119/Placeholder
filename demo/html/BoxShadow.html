@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3实现曲边阴影和翘边阴影</title>
+    <style type="text/css" rel="stylesheet">
+        body {
+            font-family: Arial;
+            font-size: 20px;
+        }
+
+        body, ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .wrap h1 {
+            font-size: 20px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+        .effect {
+            position: relative;
+            width: 70%;
+            height: 200px;
+            margin: 50px auto;
+            background: #fff;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.25) inset;
+            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.25) inset;
+            -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.25) inset;
+            -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.25) inset;
+        }
+
+        .effect:before {
+            content: '';
+            z-index: -2;
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            left: 10px;
+            right: 10px;
+            border-radius: 100px/10px; /*水平方向的半径100px 垂直方向半径10px*/
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .effect:after {
+            content: '';
+            z-index: -2;
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            left: 10px;
+            right: 10px;
+            border-radius: 100px/10px;  /*水平方向的半径100px 垂直方向半径10px*/
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap effect">
+    <h1>shadow effect</h1>
+</div>
+</body>
+</html>
