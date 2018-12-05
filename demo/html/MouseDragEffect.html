@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-    <title>鼠标拖拽效果</title>
+    <title>拖拽效果</title>
 
     <style type="text/css">
 
@@ -201,6 +201,7 @@
         el.style.height = document.documentElement.clientHeight + 'px';
     }
 
+
     var mouseOffsetX = 0;   //  偏移
     var mouseOffsetY = 0;
 
@@ -224,16 +225,38 @@
         var moveY = 0;
 
         if (isDraging === true) {
+
             moveX = mouseX - mouseOffsetX;
             moveY = mouseY - mouseOffsetY;
+
+
+            //  范围限定   moveX > 0 并且  moveX < (页面最大宽度 - 浮层的宽度)
+            //            moveY > 0 并且  movey < (页面最大高度 - 浮层的高度)
+
+            var pageWidth = document.documentElement.clientWidth;
+            var pageHeight = document.documentElement.clientHeight;
+
+            var dialogWidth = g('dialog').offsetWidth;
+            var dialogHeight = g('dialog').offsetHeight;
+
+            var maxX = pageWidth - dialogWidth;
+            var maxY = pageHeight - dialogHeight;
+
+            moveX = Math.min(maxX, Math.max(0, moveX));
+            moveY = Math.min(maxY, Math.max(0, moveY));
+
+
             g('dialog').style.left = moveX + 'px';
             g('dialog').style.top = moveY + 'px';
         }
+
     }
     //  鼠标事件3 － 鼠标松开的时候（标记元素为不可拖动即可）
     document.onmouseup = function () {
         isDraging = false;
     }
+
 </script>
+
 </body>
 </html>
