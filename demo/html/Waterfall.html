@@ -83,23 +83,107 @@
             <img src="../img/10.jpeg"/>
         </div>
     </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/1.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/2.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/3.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/4.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/5.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/6.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/7.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/8.jpg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/9.jpeg"/>
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="../img/10.jpeg"/>
+        </div>
+    </div>
 </div>
 </body>
 </html>
 <script type="text/javascript">
+
     window.onload = function () {
         waterfall('main', 'box');
+        var dataInt = {
+            "data": [{"src": '1.jpg'}, {"src": '2.jpg'}, {"src": '3.jpg'},
+                {"src": '4.jpg'}, {"src": '5.jpg'}, {"src": '6.jpg'}, {"src": '7.jpg'}]
+        }
+
+        window.onscroll = function () {
+            if (checkScrollSlide) {
+                var oParent = document.getElementById('main')
+                for (var i = 0; i < dataInt.data.length; i++) {
+                    var oBox = document.createElement('div');
+                    oBox.className = 'box'
+                    oParent.appendChild(oBox)
+
+                    var oPic = document.createElement('div')
+                    oPic.className = 'pic'
+                    oBox.appendChild(oPic)
+
+                    var oImg = document.createElement('img')
+                    oImg.src = '../img/' + dataInt.data[i].src
+                    oPic.appendChild(oImg)
+                }
+                waterfall('main', 'box');
+            }
+        }
+    }
+
+    function checkScrollSlide() {
+        var oParent = document.getElementById('main')
+        var oBoxs = getByClass(oParent, 'box')
+        var lastBoxH = oBoxs[oBoxs.length - 1].offsetTop + Math.floor(oBoxs[oBoxs.length - 1].offsetHeight / 2)
+        var scrollTop = document.body.scrollTop || document.documentElement.scrollTop
+        var height = document.body.clientHeight || document.documentElement.clientHeight
+        return lastBoxH < scrollTop + height
     }
 
     function waterfall(parent, box) {
-        var oParent = document.getElementById(parent);
-        var oBoxs = getByClass(oParent, box);
-        var oBoxW = oBoxs[0].offsetWidth
-        var cols = Math.floor(document.documentElement.clientWidth / oBoxW)
+        let oParent = document.getElementById(parent);
+        let oBoxs = getByClass(oParent, box);
+        let oBoxW = oBoxs[0].offsetWidth
+        let cols = Math.floor(document.documentElement.clientWidth / oBoxW)
         oParent.style.cssText = 'width:' + oBoxW * cols + 'px;margin:0 auto'
         var hArr = []
 
-        for (var i = 0; i < oBoxs.length; i++) {
+        for (let i = 0; i < oBoxs.length; i++) {
             if (i < cols) {
                 // 将图片的高度值添加到数组中
                 hArr.push(oBoxs[i].offsetHeight)
@@ -119,13 +203,12 @@
 
             }
         }
-        console.info(hArr)
     }
 
     function getByClass(parent, clsName) {
-        var boxArr = new Array(),
-            oElements = parent.getElementsByTagName('*');
-        for (var i = 0; i < oElements.length; i++) {
+        var boxArr = new Array()
+        let oElements = parent.getElementsByTagName('*');
+        for (let i = 0; i < oElements.length; i++) {
             if (oElements[i].className == clsName) {
                 boxArr.push(oElements[i]);
             }
@@ -135,7 +218,7 @@
 
     // 求值在数组中的索引,arr接收的是数组，val接收的是判断的值
     function getMinhIndex(arr, val) {
-        for (var i = 0; i < arr.length; i++) {
+        for (let i = 0; i < arr.length; i++) {
             if (arr[i] === val) return i
         }
     }
