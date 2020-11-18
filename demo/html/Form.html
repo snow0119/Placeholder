@@ -9,9 +9,10 @@
         margin: 0 auto;
       }
 
-      input {
+      input, meter {
         width: 100%;
         margin: 5px 0;
+        height: 30px;
         line-height: 30px;
         padding-left: 5px;
         border-radius: 4px;
@@ -39,13 +40,19 @@
         <label for="score">入学成绩：</label><br>
         <input id="score" type="number" max="100" min="0" value="0"><br>
         <label for="level">基础水平：</label><br>
-        <input id="level" type="range" max="100" min="0"><br>
+        <meter id="level" max="100" min="0" low="59" high="90"></meter><br>
         <label for="startDate">入学日期：</label><br>
         <input id="startDate" type="date"><br>
         <label for="endDate">毕业日期：</label><br>
         <input id="endDate" type="date"><br>
+
         <input type="submit" value="提交">
       </fieldset>
     </form>
+    <script>
+      document.getElementById('score').oninput = function (){
+        document.getElementById('level').value = this.value
+      }
+    </script>
   </body>
 </html>
