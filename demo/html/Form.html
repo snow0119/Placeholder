@@ -18,19 +18,23 @@
     </style>
   </head>
   <body>
-    <form>
+    <form action="">
       <fieldset>
         <legend>学生档案</legend>
         姓名：<br>
-        <input type=""><br>
+        <input type="text" placeholder="请输入用户名"><br>
         手机号码：<br>
-        <input type=""><br>
+        <input type="tel"><br>
         邮箱地址：<br>
-        <input type=""><br>
+        <input type="email"><br>
         所属学院：<br>
-        <input type=""><br>
+        <input type="text" list="schools"><br>
+        <datalist id="schools">
+          <option>计算机技术学院</option>
+          <option>土木工程学院</option>
+        </datalist>
         入学成绩：<br>
-        <input type=""><br>
+        <input type="number" max="100" min="0" value="0"><br>
         基础水平：<br>
         <input type=""><br>
         入学日期：<br>
