@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c1f48fd-f7ae-419c-b1c7-38721db19274" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo/html/Clock.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo/html/Demo.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/html/Demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="129" column="19" lean-forward="true" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clock.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/html/Clock.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="150" column="38" lean-forward="true" selection-start-line="150" selection-start-column="38" selection-end-line="150" selection-end-column="38" />
+              <folding>
+                <marker date="1548755727035" expanded="true" signature="3752:3827" ph="..." />
+                <marker date="1548755727035" expanded="true" signature="4371:4408" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>index.jsindex.pugindex.stylmock.js</find>
+      <find>/manage-member-card</find>
+      <find>inline-style</find>
+      <find>px</find>
+      <find>static</find>
+      <find>a&gt;</find>
+      <find>v</find>
+      <find>/i/border.png</find>
+      <find>30 30</find>
+      <find>thirdAnimation</find>
+      <find>0px</find>
+      <find>blue</find>
+      <find>0 5px 10px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.25) inset</find>
+      <find>0, 0, 0, 0.5</find>
+      <find>1px 10px</find>
+      <find>0 5px 10px rgba(0, 0, 0, 0.25)</find>
+      <find>rgba(0, 0, 0, 0.25)</find>
+      <find>skew(-12deg) rotate(-4deg)</find>
+      <find>http://www.w3cplus.com/demo/css3/CSS3Fullbackground/sbg1.jpg</find>
+      <find>img</find>
+      <find>translatez</find>
+      <find>borderInner</find>
+      <find>./images</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>µ</replace>
+      <replace>internal-style-sheet</replace>
+      <replace>&quot;../../statics/border-img.png&quot;</replace>
+      <replace>55 55</replace>
+      <replace>0</replace>
+      <replace>red</replace>
+      <replace>0, 0, 0, 0.25</replace>
+      <replace>0 40px</replace>
+      <replace>0 0 20px rgba(0, 0, 0, 0.25)</replace>
+      <replace>rgba(0, 0, 0, 0.8)</replace>
+      <replace>skew(12deg) rotate(4deg)</replace>
+      <replace>../img/4.jpg</replace>
+      <replace>translateZ</replace>
+      <replace>../img</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/demo/js</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base/css3/Transition.html" />
+        <option value="$PROJECT_DIR$/base/css3/Animation.html" />
+        <option value="$PROJECT_DIR$/base/css3/Column.html" />
+        <option value="$PROJECT_DIR$/base/css3/MultipleColumn.html" />
+        <option value="$PROJECT_DIR$/base/css3/UserInterface.html" />
+        <option value="$PROJECT_DIR$/base/js/SimpleExample.js" />
+        <option value="$PROJECT_DIR$/demo/html/Js.html" />
+        <option value="$PROJECT_DIR$/demo/js/SimpleExample.js" />
+        <option value="$PROJECT_DIR$/demo/html/JsSimpleExample.html" />
+        <option value="$PROJECT_DIR$/demo/html/Timing.html" />
+        <option value="$PROJECT_DIR$/demo/js/Timing.js" />
+        <option value="$PROJECT_DIR$/demo/js/Cookie.js" />
+        <option value="$PROJECT_DIR$/demo/html/Cookie.html" />
+        <option value="$PROJECT_DIR$/demo/html/HijQuery.html" />
+        <option value="$PROJECT_DIR$/demo/js/HijQuery.js" />
+        <option value="$PROJECT_DIR$/common/js/jQuery.js" />
+        <option value="$PROJECT_DIR$/common/js/j.js" />
+        <option value="$PROJECT_DIR$/demo/jQuery/effect.html" />
+        <option value="$PROJECT_DIR$/demo/jQuery/Effect.html" />
+        <option value="$PROJECT_DIR$/demo/jQuery/html/Effect.html" />
+        <option value="$PROJECT_DIR$/jQuery/html/Effect.html" />
+        <option value="$PROJECT_DIR$/jQuery/js/Effect.js" />
+        <option value="$PROJECT_DIR$/jQuery/js/Html.js" />
+        <option value="$PROJECT_DIR$/jQuery/html/Html.html" />
+        <option value="$PROJECT_DIR$/demo/html/BoxShadow.html" />
+        <option value="$PROJECT_DIR$/demo/html/NavigationMenu.html" />
+        <option value="$PROJECT_DIR$/demo/html/TriggerBackgroundImage.html" />
+        <option value="$PROJECT_DIR$/demo/html/切换背景图像.html" />
+        <option value="$PROJECT_DIR$/demo/html/制作3D旋转导航.html" />
+        <option value="$PROJECT_DIR$/demo/html/Transform3D.html" />
+        <option value="$PROJECT_DIR$/demo/html/Responsive.html" />
+        <option value="$PROJECT_DIR$/demo/html/制作3D旋转视频展示区.html" />
+        <option value="$PROJECT_DIR$/demo/html/Ducument.html" />
+        <option value="$PROJECT_DIR$/demo/html/OneColum.html" />
+        <option value="$PROJECT_DIR$/demo/html/OneColumn.html" />
+        <option value="$PROJECT_DIR$/demo/html/TwoColumns.html" />
+        <option value="$PROJECT_DIR$/demo/html/ThreeColumns.html" />
+        <option value="$PROJECT_DIR$/demo/html/Columns.html" />
+        <option value="$PROJECT_DIR$/demo/html/ColumnsDemo.html" />
+        <option value="$PROJECT_DIR$/demo/html/Animate.html" />
+        <option value="$PROJECT_DIR$/demo/html/MouseDragEffect.html" />
+        <option value="$PROJECT_DIR$/demo/html/MouseDragDemo.html" />
+        <option value="$PROJECT_DIR$/demo/html/test.html" />
+        <option value="$PROJECT_DIR$/demo/html/Waterfall.html" />
+        <option value="$PROJECT_DIR$/demo/html/WaterfallJquery.html" />
+        <option value="$PROJECT_DIR$/demo/html/WaterfallTest.html" />
+        <option value="$PROJECT_DIR$/demo/html/CssSprite.html" />
+        <option value="$PROJECT_DIR$/demo/html/AccordionList.html" />
+        <option value="$PROJECT_DIR$/demo/html/WaterfallCss3.html" />
+        <option value="$PROJECT_DIR$/demo/html/Clock.html" />
+        <option value="$PROJECT_DIR$/demo/html/Demo.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-78" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Dart</id>
+          </State>
+          <State>
+            <id>EJS</id>
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidFunction</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="from-shallow-to-deep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="from-shallow-to-deep" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo/html" />
+      <recent name="$PROJECT_DIR$/clock.html" />
+      <recent name="$PROJECT_DIR$/demo/img" />
+      <recent name="$PROJECT_DIR$/statics" />
+      <recent name="$PROJECT_DIR$/jQuery/html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo/html" />
+      <recent name="$PROJECT_DIR$/demo/img" />
+      <recent name="$PROJECT_DIR$/statics" />
+      <recent name="$PROJECT_DIR$/base/html5" />
+      <recent name="$PROJECT_DIR$/base/html/statics" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1f48fd-f7ae-419c-b1c7-38721db19274" name="Default" comment="" />
+      <created>1524192688183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524192688183</updated>
+      <workItem from="1524192689471" duration="70126000" />
+      <workItem from="1525858315157" duration="1996000" />
+      <workItem from="1527058523108" duration="111000" />
+      <workItem from="1527059043029" duration="285000" />
+      <workItem from="1527241325258" duration="4101000" />
+      <workItem from="1527557598068" duration="15368000" />
+      <workItem from="1527835467971" duration="11663000" />
+      <workItem from="1528860416646" duration="21027000" />
+      <workItem from="1542850848075" duration="195000" />
+      <workItem from="1542851166403" duration="13756000" />
+      <workItem from="1543299696000" duration="140000" />
+      <workItem from="1543299990866" duration="8395000" />
+      <workItem from="1543563200748" duration="6274000" />
+      <workItem from="1543828726171" duration="10000" />
+      <workItem from="1543914179363" duration="9286000" />
+      <workItem from="1545098070686" duration="1630000" />
+      <workItem from="1545104153290" duration="15786000" />
+      <workItem from="1548755540075" duration="2387000" />
+    </task>
+    <task id="LOCAL-00071" summary="multiple column">
+      <created>1527758075000</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1527758075000</updated>
+    </task>
+    <task id="LOCAL-00072" summary="user interface(resize)">
+      <created>1527759381526</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1527759381526</updated>
+    </task>
+    <task id="LOCAL-00073" summary="user interface(outline)">
+      <created>1527760306923</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1527760306923</updated>
+    </task>
+    <task id="LOCAL-00074" summary="js simple example">
+      <created>1528339900351</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1528339900352</updated>
+    </task>
+    <task id="LOCAL-00075" summary="js simple example">
+      <created>1528340481306</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1528340481306</updated>
+    </task>
+    <task id="LOCAL-00076" summary="change js -&gt; es6">
+      <created>1528341632985</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1528341632986</updated>
+    </task>
+    <task id="LOCAL-00077" summary="timing">
+      <created>1528352681065</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1528352681065</updated>
+    </task>
+    <task id="LOCAL-00078" summary="timing clearTimeOut">
+      <created>1528352839118</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1528352839118</updated>
+    </task>
+    <task id="LOCAL-00079" summary="setCookie getCookie">
+      <created>1528355576929</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1528355576929</updated>
+    </task>
+    <task id="LOCAL-00080" summary="setCookie getCookie(code review)">
+      <created>1528356746926</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1528356746926</updated>
+    </task>
+    <task id="LOCAL-00081" summary="setCookie getCookie(code review)">
+      <created>1528356906307</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1528356906308</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add jQuery">
+      <created>1528357558464</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1528357558464</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add jQuery and effect">
+      <created>1528365388384</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1528365388384</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add jQuery and effect">
+      <created>1528365617292</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1528365617292</updated>
+    </task>
+    <task id="LOCAL-00085" summary="add jQuery and effect(fadeIn)">
+      <created>1528872274430</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1528872274430</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add jQuery and effect(fadeTo)">
+      <created>1528940662299</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1528940662300</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add jQuery and effect(slide)">
+      <created>1528942504868</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1528942504868</updated>
+    </task>
+    <task id="LOCAL-00088" summary="add jQuery and effect(animate)">
+      <created>1528948481647</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1528948481647</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add jQuery get html">
+      <created>1528962085807</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1528962085807</updated>
+    </task>
+    <task id="LOCAL-00090" summary="text html val attr">
+      <created>1528962927814</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1528962927814</updated>
+    </task>
+    <task id="LOCAL-00091" summary="box-shadow">
+      <created>1542853137971</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1542853137973</updated>
+    </task>
+    <task id="LOCAL-00092" summary="box-shadow">
+      <created>1542853260671</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1542853260671</updated>
+    </task>
+    <task id="LOCAL-00093" summary="box-shadow">
+      <created>1542854713263</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1542854713263</updated>
+    </task>
+    <task id="LOCAL-00094" summary="navigation menu">
+      <created>1542868770915</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1542868770915</updated>
+    </task>
+    <task id="LOCAL-00095" summary="target background image">
+      <created>1542872033202</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1542872033202</updated>
+    </task>
+    <task id="LOCAL-00096" summary="transform3d">
+      <created>1543299356049</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1543299356049</updated>
+    </task>
+    <task id="LOCAL-00097" summary="media">
+      <created>1543391583466</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1543391583471</updated>
+    </task>
+    <task id="LOCAL-00098" summary="meta">
+      <created>1543391815123</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1543391815123</updated>
+    </task>
+    <task id="LOCAL-00099" summary="meta">
+      <created>1543393676096</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1543393676096</updated>
+    </task>
+    <task id="LOCAL-00100" summary="meta">
+      <created>1543393698085</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1543393698085</updated>
+    </task>
+    <task id="LOCAL-00101" summary="transform 3d show">
+      <created>1543396665375</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1543396665375</updated>
+    </task>
+    <task id="LOCAL-00102" summary="one column">
+      <created>1543405192117</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1543405192119</updated>
+    </task>
+    <task id="LOCAL-00103" summary="two columns">
+      <created>1543405656971</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1543405656972</updated>
+    </task>
+    <task id="LOCAL-00104" summary="three columns">
+      <created>1543406145961</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1543406145962</updated>
+    </task>
+    <task id="LOCAL-00105" summary="columns">
+      <created>1543406579914</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1543406579914</updated>
+    </task>
+    <task id="LOCAL-00106" summary="columns">
+      <created>1543453148104</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1543453148105</updated>
+    </task>
+    <task id="LOCAL-00107" summary="animate">
+      <created>1543805530737</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1543805530738</updated>
+    </task>
+    <task id="LOCAL-00108" summary="mouse drag effect">
+      <created>1543978136302</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1543978136302</updated>
+    </task>
+    <task id="LOCAL-00109" summary="add limit(mouse drag effect)">
+      <created>1543978637282</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1543978637282</updated>
+    </task>
+    <task id="LOCAL-00110" summary="complete(mouse drag effect)">
+      <created>1543979627711</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1543979627711</updated>
+    </task>
+    <task id="LOCAL-00111" summary="mouse drag demo">
+      <created>1543980573029</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1543980573029</updated>
+    </task>
+    <task id="LOCAL-00112" summary="waterfall">
+      <created>1545275679545</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1545275679546</updated>
+    </task>
+    <task id="LOCAL-00113" summary="waterfall">
+      <created>1545277259133</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1545277259133</updated>
+    </task>
+    <task id="LOCAL-00114" summary="waterfall with js">
+      <created>1545277876305</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1545277876305</updated>
+    </task>
+    <task id="LOCAL-00115" summary="use native js achieve waterfall layout">
+      <created>1545278357067</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1545278357067</updated>
+    </task>
+    <task id="LOCAL-00116" summary="use jquery to achieve waterfall layout">
+      <created>1545290334067</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1545290334067</updated>
+    </task>
+    <task id="LOCAL-00117" summary="use jquery to achieve waterfall layout">
+      <created>1545291345316</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1545291345317</updated>
+    </task>
+    <task id="LOCAL-00118" summary="use css3 achieve waterfall layout">
+      <created>1545292410867</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1545292410867</updated>
+    </task>
+    <task id="LOCAL-00119" summary="accordion list">
+      <created>1546422482135</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1546422482135</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="182536000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20730738" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669876" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11966988" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add jQuery and effect(animate)" />
+    <MESSAGE value="add jQuery get html" />
+    <MESSAGE value="text html val attr" />
+    <MESSAGE value="box-shadow" />
+    <MESSAGE value="navigation menu" />
+    <MESSAGE value="target background image" />
+    <MESSAGE value="transform3d" />
+    <MESSAGE value="media" />
+    <MESSAGE value="meta" />
+    <MESSAGE value="transform 3d show" />
+    <MESSAGE value="one column" />
+    <MESSAGE value="two columns" />
+    <MESSAGE value="three columns" />
+    <MESSAGE value="columns" />
+    <MESSAGE value="animate" />
+    <MESSAGE value="mouse drag effect" />
+    <MESSAGE value="add limit(mouse drag effect)" />
+    <MESSAGE value="complete(mouse drag effect)" />
+    <MESSAGE value="mouse drag demo" />
+    <MESSAGE value="waterfall" />
+    <MESSAGE value="waterfall with js" />
+    <MESSAGE value="use native js achieve waterfall layout" />
+    <MESSAGE value="use jquery to achieve waterfall layout" />
+    <MESSAGE value="use css3 achieve waterfall layout" />
+    <MESSAGE value="accordion list" />
+    <option name="LAST_COMMIT_MESSAGE" value="accordion list" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/base/css3/Animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/css3/UserInterface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/js/DemoWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/SimpleExample.js" />
+    <entry file="file://$PROJECT_DIR$/demo/html/JsSimpleExample.html" />
+    <entry file="file://$PROJECT_DIR$/demo/html/Timing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/Cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Cookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/Timing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/HijQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/common/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="1" column="86747" lean-forward="true" selection-start-line="1" selection-start-column="86747" selection-end-line="1" selection-end-column="86747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/js/Effect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/js/Html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/html/Html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/html/inde.html" />
+    <entry file="file://$PROJECT_DIR$/statics/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/BoxShadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/NavigationMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="16" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/切换背景图像.html" />
+    <entry file="file://$PROJECT_DIR$/demo/html/TargetBackgroundImage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6405">
+          <caret line="433" column="9" lean-forward="false" selection-start-line="433" selection-start-column="9" selection-end-line="433" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/制作3D旋转导航.html" />
+    <entry file="file://$PROJECT_DIR$/demo/html/Transform3D.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/制作3D旋转视频展示区.html" />
+    <entry file="file://$PROJECT_DIR$/demo/html/Transform3DShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/OneColumn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/ThreeColumns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Columns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/TwoColumns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/二列居中自适应.html" />
+    <entry file="file://$PROJECT_DIR$/demo/html/混合布局自适应.html" />
+    <entry file="file://$PROJECT_DIR$/demo/html/ColumnsDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/MouseDragEffect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="213" column="53" lean-forward="false" selection-start-line="213" selection-start-column="42" selection-end-line="213" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/MouseDragDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/img/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/img/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/img/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/img/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/img/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="395" column="10" lean-forward="true" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Waterfall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="145" column="9" lean-forward="false" selection-start-line="142" selection-start-column="7" selection-end-line="145" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/WaterfallJquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/AccordionList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/WaterfallCss3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/HijQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="6" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Clock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="150" column="38" lean-forward="true" selection-start-line="150" selection-start-column="38" selection-end-line="150" selection-end-column="38" />
+          <folding>
+            <marker date="1548755727035" expanded="true" signature="3752:3827" ph="..." />
+            <marker date="1548755727035" expanded="true" signature="4371:4408" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/html/Effect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/html/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="129" column="19" lean-forward="true" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
