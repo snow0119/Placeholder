@@ -11,8 +11,11 @@
 
       input {
         width: 100%;
-        line-height: 30px;
         margin: 5px 0;
+        line-height: 30px;
+        padding-left: 5px;
+        border-radius: 4px;
+        box-sizing: border-box;  /*  width= 内容 + padding + border */
         border: 1px solid #ccc;
       }
     </style>
@@ -24,11 +27,11 @@
         <label for="name">姓名：</label><br>
         <input id="name" type="text" placeholder="请输入用户名"><br>
         <label for="phone">手机号码：</label><br>
-        <input id="phone" type="tel"><br>
+        <input id="phone" type="tel" pattern="^1\d{10}$" maxlength="11"><br>
         <label for="email">邮箱地址：</label><br>
-        <input id="email" type="email"><br>
+        <input id="email" type="email" required><br>
         <label for="schools">所属学院：</label><br>
-        <input id="schools" type="text" list="schools"><br>
+        <input id="schools" type="text" list="schools" placeholder="请选择"><br>
         <datalist id="schools">
           <option>计算机技术学院</option>
           <option>土木工程学院</option>
