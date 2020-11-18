@@ -21,26 +21,26 @@
     <form action="">
       <fieldset>
         <legend>学生档案</legend>
-        姓名：<br>
-        <input type="text" placeholder="请输入用户名"><br>
-        手机号码：<br>
-        <input type="tel"><br>
-        邮箱地址：<br>
-        <input type="email"><br>
-        所属学院：<br>
-        <input type="text" list="schools"><br>
+        <label for="name">姓名：</label><br>
+        <input id="name" type="text" placeholder="请输入用户名"><br>
+        <label for="phone">手机号码：</label><br>
+        <input id="phone" type="tel"><br>
+        <label for="email">邮箱地址：</label><br>
+        <input id="email" type="email"><br>
+        <label for="schools">所属学院：</label><br>
+        <input id="schools" type="text" list="schools"><br>
         <datalist id="schools">
           <option>计算机技术学院</option>
           <option>土木工程学院</option>
         </datalist>
-        入学成绩：<br>
-        <input type="number" max="100" min="0" value="0"><br>
-        基础水平：<br>
-        <input type="range" max="100" min="0"><br>
-        入学日期：<br>
-        <input type="date"><br>
-        毕业日期：<br>
-        <input type="date"><br>
+        <label for="score">入学成绩：</label><br>
+        <input id="score" type="number" max="100" min="0" value="0"><br>
+        <label for="level">基础水平：</label><br>
+        <input id="level" type="range" max="100" min="0"><br>
+        <label for="startDate">入学日期：</label><br>
+        <input id="startDate" type="date"><br>
+        <label for="endDate">毕业日期：</label><br>
+        <input id="endDate" type="date"><br>
         <input type="submit" value="提交">
       </fieldset>
     </form>
