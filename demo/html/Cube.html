@@ -13,52 +13,47 @@
         width: 50%;
         text-align: center;
         margin: 300px auto;
+        transform: rotate3d(1,1,0,30deg);
+        transform-style: preserve-3d;
       }
 
       .cube {
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         left:0;
         top:0;
-        display: none;
         font-size: 12px;
-        opacity: 0.5;
       }
 
       .top {
-        display: block;
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, -100px, 0) rotateX(90deg);
         background-color: rgb(238, 20, 20);
       }
 
       .bottom {
-        transform: translate3d(0, -100px, 0);
+        transform: translate3d(0, 100px, 0) rotateX(90deg);
         background-color: rgb(247, 243, 7);
       }
 
       .right {
-        display: block;
-        transform: translate3d(0, 36px, 0) skewY(-20deg);
+        transform: translate3d(100px, 0, 0) rotateY(-90deg);
         background-color: rgb(8, 233, 233);
       }
 
       .left {
-        display: block;
-        transform: translate3d(-100px, 0, 0) skewY(-20deg);
+        transform: translate3d(-100px, 0, 0) rotateY(-90deg);
         background-color: rgb(130, 30, 223);
       }
 
-      .before {
-        display: block;
-        transform: translate3d(-100px, 36px, 0) skewY(20deg);
+      .front {
+        transform: translate3d(0, 0, 100px);
         background-color: rgb(27, 230, 44);
       }
 
-      .after {
-        display: block;
+      .back {
         color: #fff;
-        transform: skewY(20deg);
+        transform: translate3d(0, 0, -100px);
         background-color: black;
       }
 
@@ -72,8 +67,8 @@
       <div class="cube right">right</div>
       <div class="cube left">left</div>
 
-      <div class="cube before">before</div>
-      <div class="cube after">after</div>
+      <div class="cube front">front</div>
+      <div class="cube back">after</div>
     </div>
   </body>
 </html>
