@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>正方体</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .center{
+        position: relative;
+        width: 50%;
+        text-align: center;
+        margin: 300px auto;
+      }
+
+      .cube {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left:0;
+        top:0;
+        display: none;
+        font-size: 12px;
+        opacity: 0.5;
+      }
+
+      .top {
+        display: block;
+        transform: translate3d(0, 0, 0);
+        background-color: rgb(238, 20, 20);
+      }
+
+      .bottom {
+        transform: translate3d(0, -100px, 0);
+        background-color: rgb(247, 243, 7);
+      }
+
+      .right {
+        display: block;
+        transform: translate3d(0, 36px, 0) skewY(-20deg);
+        background-color: rgb(8, 233, 233);
+      }
+
+      .left {
+        display: block;
+        transform: translate3d(-100px, 0, 0) skewY(-20deg);
+        background-color: rgb(130, 30, 223);
+      }
+
+      .before {
+        display: block;
+        transform: translate3d(-100px, 36px, 0) skewY(20deg);
+        background-color: rgb(27, 230, 44);
+      }
+
+      .after {
+        display: block;
+        color: #fff;
+        transform: skewY(20deg);
+        background-color: black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div class="cube top">top</div>
+      <div class="cube bottom">bottom</div>
+
+      <div class="cube right">right</div>
+      <div class="cube left">left</div>
+
+      <div class="cube before">before</div>
+      <div class="cube after">after</div>
+    </div>
+  </body>
+</html>
