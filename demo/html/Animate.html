@@ -60,6 +60,28 @@
             -webkit-transform: rotate(180deg);
         }
 
+        .cube {
+          width: 100px;
+          height: 100px;
+          background-color: antiquewhite;
+          animation-name: goBack;
+          animation-duration: 2s;
+        }
+
+        @keyframes goBack {
+          0% {
+            transform: translate(0,0);
+          }
+
+          50% {
+            transform: translate(500px,150px);
+          }
+
+          100% {
+            transform: translate(1000px, 0);
+          }
+        }
+
     </style>
 </head>
 <body>
@@ -73,5 +95,8 @@
     </div>
     <div class="border"></div>
 </a>
+<div class="cube">
+
+</div>
 </body>
 </html>
