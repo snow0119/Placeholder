@@ -64,8 +64,22 @@
           width: 100px;
           height: 100px;
           background-color: antiquewhite;
-          animation-name: goBack;
+          /* 1、设置动画名字 */
+          animation-name: goBack; 
+          /* 2、设置动画总耗时 */
           animation-duration: 2s;
+          /* 3、设置动画播放次数 */
+          animation-iteration-count: 6;
+          /* 4、设置交替动画 */
+          animation-direction: alternate;
+          /* 5、设置动画延迟 */
+          animation-delay: 3s;
+          /* 6、设置动画结束时状态 */
+          animation-fill-mode: forwards;
+          /* 7、设置动画的时间函数 */
+          animation-timing-function: ease; 
+          /* 8、设置动画的播放状态 */
+          animation-play-state: running;
         }
 
         @keyframes goBack {
