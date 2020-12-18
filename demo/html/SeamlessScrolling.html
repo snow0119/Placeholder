@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style type="text/css" rel="stylesheet">
-
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
       body {
+        padding: 0px;
+        margin: 0px;
         padding-top: 200px;
       }
 
       .content {
-        display: flex;
-        width: 600px;
-        overflow: scroll;
+        width: 620px;
+        overflow: hidden;
         margin: 0 auto;
+        background-color: #ddd;
+      }
+
+      .items {
+        width: 200%;
+        animation-name: seamless;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
       }
 
       .imgBg {
+        display: inline-block;
         width: 150px;
         height: 100px;
         background-size: cover;
         background-repeat: no-repeat;
-        animation-name: seamless;
-        animation-duration: 2s;
       }
 
       .bg1 {
@@ -59,10 +62,16 @@
   </head>
   <body>
     <div class="content">
-      <div class="imgBg bg1"></div>
-      <div class="imgBg bg2"></div>
-      <div class="imgBg bg3"></div>
-      <div class="imgBg bg4"></div>
+      <div class="items">
+        <div class="imgBg bg1"></div>
+        <div class="imgBg bg2"></div>
+        <div class="imgBg bg3"></div>
+        <div class="imgBg bg4"></div>
+        <div class="imgBg bg1"></div>
+        <div class="imgBg bg2"></div>
+        <div class="imgBg bg3"></div>
+        <div class="imgBg bg4"></div>
+      </div>
     </div>
   </body>
 </html>
