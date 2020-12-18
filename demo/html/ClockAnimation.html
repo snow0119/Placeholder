@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>动画实现时钟</title>
+    <style type="text/css">
+      .clock {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        margin: 200px auto;
+      }
+
+      .clock-bg {
+        width: 200px;
+        height: 200px;
+        border: 10px solid;
+        border-radius: 50%;
+        background-color: #fff;
+      }
+      
+      /* .cover-bg {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 190px;
+        height: 190px;
+        border-radius: 95px;
+        background-color: #fff;
+      } */
+
+      .line {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 4px;
+        height: 220px;
+        transform: translate(-50%, 0);
+        background-color: #000;
+      }
+
+      .line1 {
+        width: 8px;
+      }
+
+      .line2 {
+        transform: translate(-50%, 0) rotate(30deg);
+      }
+
+      .line3 {
+        transform: translate(-50%, 0) rotate(60deg);
+      }
+
+      .line4 {
+        width: 8px;
+        transform: translate(-50%, 0) rotate(90deg);
+      }
+
+      .line5 {
+        transform: translate(-50%, 0) rotate(120deg);
+      }
+
+      .line6 {
+        transform: translate(-50%, 0) rotate(150deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clock">
+      <div class="clock-bg"></div>
+      <div class="cover-bg"></div>
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
+      <div class="line line4"></div>
+      <div class="line line5"></div>
+      <div class="line line6"></div>
+    </div>
+  </body>
+</html>
