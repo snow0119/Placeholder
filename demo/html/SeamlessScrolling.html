@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css" rel="stylesheet">
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        padding-top: 200px;
+      }
+
+      .content {
+        display: flex;
+        width: 600px;
+        overflow: scroll;
+        margin: 0 auto;
+      }
+
+      .imgBg {
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-name: seamless;
+        animation-duration: 2s;
+      }
+
+      .bg1 {
+        background-image: url(../img/2.jpg);
+      }
+
+      .bg2 {
+        background-image: url(../img/4.jpg);
+      }
+
+      .bg3 {
+        background-image: url(../img/6.jpg);
+      }
+
+      .bg4 {
+        background-image: url(../img/8.jpg);
+      }
+      
+      @keyframes seamless {
+        from {
+          transform: translateX(0);
+        }
+
+        to {
+          transform: translateX(-600px);
+        } 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="imgBg bg1"></div>
+      <div class="imgBg bg2"></div>
+      <div class="imgBg bg3"></div>
+      <div class="imgBg bg4"></div>
+    </div>
+  </body>
+</html>
