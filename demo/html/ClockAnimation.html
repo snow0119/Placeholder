@@ -72,26 +72,28 @@
         bottom: 50%;
         z-index: 2;
         transform: translate(-50%, 0);
+        transform-origin: center bottom;
       }
 
       .hour {
         width: 6px;
         height: 40px;
         background-color: #000;
+        animation: clockAnimite 21600s steps(60) infinite;
       }
 
       .minute {
         width: 4px;
         height: 60px;
         background-color: rgb(10, 35, 88);
+        animation: clockAnimite 3600s steps(60) infinite;
       }
 
       .second {
         width: 2px;
         height: 80px;
         background-color: rgb(10, 160, 48);
-        animation: clockAnimite 60s linear;
-        transform-origin: center bottom;
+        animation: clockAnimite 60s steps(60) infinite;
       }
 
       .center {
