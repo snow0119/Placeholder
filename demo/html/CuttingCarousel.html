@@ -2,8 +2,81 @@
 <html>
   <head>
     <title>切割轮播图</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .items {
+        padding: 200px 0;
+        width: 500px;
+        margin: 0 auto;
+        list-style: none;
+        transform-style: preserve-3d;
+        transform: rotate3d(1,1,1,45deg);
+      }
+
+      .items > li {
+        position: relative;
+        /* width: 200px;
+        height: 100px; */
+      }
+
+      .items > li > span {
+        position: absolute;
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-size: cover;
+      }
+
+      .bg1 {
+        background: url(../img/2.jpg) no-repeat;
+      }
+
+      .bg2 {
+        background: url(../img/4.jpg) no-repeat;
+      }
+
+      .bg3 {
+        background: url(../img/6.jpg) no-repeat;
+      }
+
+      .bg4 {
+        background: url(../img/8.jpg) no-repeat;
+      }
+
+      .top {
+        transform: translateY(50px) rotateX(-90deg);
+      }
+
+      .bottom {
+        transform: translateY(-50px) rotateX(90deg);
+      }
+
+      .before {
+        transform: translateZ(50px);
+      }
+
+      .back {
+        transform: translateZ(-50px) rotateX(-180deg);
+      }
+
+    </style>
   </head>
   <body>
-    
+    <ul class="items">
+      <li>
+        <span class="before bg4">before</span>
+        <span class="back bg2">back</span>
+        <span class="top bg1">top</span>
+        <span class="bottom bg3">bottom</span>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
   </body>
 </html>
