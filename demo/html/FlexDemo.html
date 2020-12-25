@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .f {
+        display: flex;
+        width: 500px;
+        height: 580px;
+        margin: 0 auto;
+        flex-direction: column;
+      }
+
+      header, footer {
+        height: 60px;
+      }
+
+      header {
+        background-color: rgb(134, 134, 247);
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+      }
+
+      main > article {
+        flex: 1;
+        background-color: pink;
+      }
+
+      main > aside {
+        flex: 3;
+        background-color: bisque;
+      }
+
+      footer {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body class="f">
+    <header></header>
+    <main>
+      <article></article>
+      <aside></aside>
+    </main>
+    <footer></footer>
+  </body>
+</html>
